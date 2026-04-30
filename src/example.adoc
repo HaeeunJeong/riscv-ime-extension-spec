@@ -11,9 +11,8 @@ vmadot1    vd, vs1, vs2'
 vmadot2    vd, vs1, vs2''
 ....
 
-:imagesdir: ../images
 image::conv-1.jpg[]
-image:conv-2.jpg[../conv-2.jpg]
+image:conv-2.jpg[../images/conv-2.jpg]
 image:conv-3.jpg[../conv-3.jpg]
 
 This implementation accomplishes the calculation of the first row within the receptive field of the feature map and the first row of the convolution. The calculations for the second and third rows are carried out in the same accumulative manner as described above, as shown in the following tow figures, respectively.
