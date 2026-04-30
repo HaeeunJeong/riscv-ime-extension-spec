@@ -11,7 +11,7 @@ vmadot1    vd, vs1, vs2'
 vmadot2    vd, vs1, vs2''
 ....
 
-image:conv-1.jpg[images/conv-1.jpg]
+image:conv-1.jpg[..//conv-1.jpg]
 image:conv-2.jpg[images/conv-2.jpg]
 image:conv-3.jpg[images/conv-3.jpg]
 
