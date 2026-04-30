@@ -6,7 +6,7 @@
 
 REMOTE_HOST="bpi"
 REMOTE_DIR="~/ime_workspace/example"
-LOCAL_DIR="./example"
+LOCAL_DIR="/media/ssd1/haeeun/ws/riscv-ime-extension-spec/example"
 FILES="vmadot.c Makefile"
 
 echo "=========================================="
@@ -31,5 +31,5 @@ echo "=========================================="
 ssh $REMOTE_HOST "cd $REMOTE_DIR && make clean && make run"
 
 echo "=========================================="
-echo "✅ Remote execution completed"
+echo "p]n✅ Remote execution completed"
 echo "=========================================="
